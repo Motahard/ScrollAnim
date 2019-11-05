@@ -54,6 +54,5 @@ const scene = new ScrollMagic.Scene({
   triggerHook: 0
 })
   .setTween(tween)
-  .addIndicators()
   .setPin('.animation')
   .addTo(controller);
